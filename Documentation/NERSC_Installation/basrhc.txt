@@ -1,0 +1,18 @@
+# begin .bashrc.ext
+[ -e $HOME/.dbgdot ] && echo "entering .bashrc.ext" >&2
+
+# User additions to .bashrc go in this file
+
+# Un-comment and modify the following template for system-specific
+# personal settings.
+
+if [ "$NERSC_HOST" == "cori" ]
+ then
+   export GQPMC_DIR="/global/cscratch1/sd/kgb0255/gqp_mc"
+   export SPS_HOME="/global/homes/k/kgb0255/packages/fsps/"
+ fi
+
+[ -e $HOME/.dbgdot ] && echo "exiting .bashrc.ext" >&2
+# end .bashrc.ext
+~
+~
