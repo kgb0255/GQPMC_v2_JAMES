@@ -8,8 +8,8 @@
 
 if [ "$NERSC_HOST" == "cori" ]
  then
-   export GQPMC_DIR="/global/cscratch1/sd/kgb0255/gqp_mc"
-   export SPS_HOME="/global/homes/k/kgb0255/packages/fsps/"
+   export GQPMC_DIR="YOUR_DIRECTORY_TO_GQPMC"
+   export SPS_HOME="YOUR_DIRECTORY_TO_FSPS"
  fi
 
 [ -e $HOME/.dbgdot ] && echo "exiting .bashrc.ext" >&2
