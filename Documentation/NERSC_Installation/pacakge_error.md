@@ -15,4 +15,17 @@ If not, NERSC is indeed confused because you might have done
 module load python
 ```
 
-If this is the case, close the shell and re-ssh to NERSC, and set up the environment **without** ```module load python```.
+If this is the case, close the shell and re-ssh to NERSC, and set up the environment **without** ```module load python```; i.e., 
+
+```
+#After you ssh into the NERSC server
+
+conda create -n gqp python=3.7 ipython jupyter pip
+which pip
+```
+and check if you get
+```
+/global/homes/k/kgb0255/.conda/envs/gqp/bin/pip
+```
+
+If not, feel free to contact us: kgb0255@berkeley.edu
