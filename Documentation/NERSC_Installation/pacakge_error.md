@@ -15,4 +15,4 @@ If not, NERSC is indeed confused because you might have done
 module load python
 ```
 
-If this is the case, close the shell and re-ssh to NERSC, and set up the environment **without** ```bash\module load python```.
+If this is the case, close the shell and re-ssh to NERSC, and set up the environment **without** ```module load python```.
